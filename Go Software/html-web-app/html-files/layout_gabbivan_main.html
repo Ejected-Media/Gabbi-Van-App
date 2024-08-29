@@ -4,14 +4,18 @@
 <title>~ Map Page 01, Phoenix-Valley.com +</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
-body { }
+html, body { margin: 0; }
+body { padding-bottom: 175px; }
 
-.sitename { font-size: 24px; }
+.top_bar_wrap { margin-bottom: 15px;  }
+.sitename { font-size: 24px; padding: 15px; }
 .sitename span { font-size: 18px; }
-div.subtitle { font-size: 14px; margin-top: 5px; }
+div.subtitle { font-size: 14px; margin-top: 5px; padding-left: 10px;  }
 
-.top_bar_wrap { margin-bottom: 15px; }
+
 .right_buttons { position: absolute; right: 10px; }
+.right_buttons div { margin-bottom: 10px; }
+
 
 nav { margin: 15px; margin-top: 5px; }
 
@@ -30,17 +34,17 @@ nav { margin: 15px; margin-top: 5px; }
 <div class="subtitle">https://github.com/Ejected-Media/Gabbi-Van-App</div>
 <hr />
 <button onclick="window.location.href='https://github.com/Ejected-Media/Gabbi-Van-App'">Repo</button>
-<div class="right_buttons"><button>Nav</button></div>
+<div class="right_buttons">
+<div><button>Nav</button></div>
+<div><button>Map</button></div>
+</div>
 </div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
 	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
+		
 		.leaflet-container {
 			height: 400px;
 			width: 600px;
@@ -120,13 +124,14 @@ https://github.com/Ejected-Media/Gabbi-Van-App<br />
 --- </p>
 <p>
 ~ hi<ul>
-<li>+ </li>
-<li>+</li>
+<li>+ Driver Data</li>
+<li>+ Client From</li>
+<li>+ Transportation List</li>
 </ul></p>
 </div>
 
 <div class="extra_help_wrap">
-    <p><b>_ A Gabbi Van ~ Driver</b></p>
+    <p><b>_ A Gabbi Van ~ Driver Data</b></p>
     <div>~ Honolulu Lemonade</div>
   <div><ul>
     <li>What ~</li>
